@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Result</title>
+</head>
+<body>
+<h1>Quiz Result</h1>
+<p>Total Questions Answered: {{ session.total_questions }}</p>
+<p>Correct Answers: {{ session.answered_correctly }}</p>
+<p>Incorrect Answers: {{ session.answered_incorrectly }}</p>
+<p>Your Score: {{ session.score }}</p>
+</body>
+</html>
